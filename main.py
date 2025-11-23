@@ -11,7 +11,3 @@ hourly = weather.json()["properties"]["periods"]
 print(json.dumps(hourly[0]["name"], indent=2))
 #hour1 = weather.json["properties"]["periods"]
 #print(hour1)
-
-
-
-print("hello world")
